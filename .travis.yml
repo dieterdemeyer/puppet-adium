@@ -1,2 +1,2 @@
 language: ruby
-script: "rake build"
+script: "bundle exec rake build"
