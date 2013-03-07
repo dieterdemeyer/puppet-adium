@@ -11,11 +11,14 @@ GEM
       librarian-puppet (~> 0.9)
       octokit (~> 1.15)
       puppet (~> 3.0)
+    builder (3.2.0)
     cardboard (1.0.0)
       boxen (~> 1.0)
       puppet-lint (~> 0.3)
       puppetlabs_spec_helper (~> 0.4)
       rspec-puppet (~> 0.1)
+    ci_reporter (1.8.4)
+      builder (>= 2.1.2)
     diff-lcs (1.2.1)
     facter (1.6.17)
     faraday (0.8.5)
@@ -70,4 +73,8 @@ PLATFORMS
 
 DEPENDENCIES
   cardboard (~> 1.0)
+  ci_reporter
+  puppet-lint
+  rake
   rspec (~> 2.13.0)
+  rspec-puppet
