@@ -1,5 +1,7 @@
 # Adium Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-adium.png)](https://travis-ci.org/boxen/puppet-adium)
+
 Install [Adium](http://adium.im/), an open source multi-protocol instant messaging client for Mac OS X.
 
 ## Usage
