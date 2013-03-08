@@ -1,2 +1,4 @@
 /.bundle
 /.ruby-version
+target
+spec/fixtures
