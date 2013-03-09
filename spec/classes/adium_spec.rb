@@ -1,11 +1,9 @@
 require 'spec_helper'
 
 describe 'adium' do
-  it do
-    should contain_package('Adium').with({
-      'source'   => 'http://download.adium.im/Adium_1.5.4.dmg',
-      'provider' => 'appdmg'
-    })
-  end
-end
 
+  it { should contain_class('adium') }
+  it { should contain_package('Adium').with_provider('appdmg') }
+  it { should contain_package('Adium').with_source('http://download.adium.im/Adium_1.5.4.dmg') }
+
+end
