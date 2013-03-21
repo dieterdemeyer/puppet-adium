@@ -19,3 +19,4 @@ Write code. Run one of the following tasks to test it:
 * `rake style`
 * `rake spec`
 * `rake build`
+
