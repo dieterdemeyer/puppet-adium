@@ -3,9 +3,12 @@
 # Examples
 #
 #  include adium
-class adium {
-  package { 'Adium':
+#
+class adium($version='1.5.9') {
+
+  package { "Adium-${version}":
     provider => 'appdmg',
-    source   => 'http://download.adium.im/Adium_1.5.7.dmg',
+    source   => "http://download.adium.im/Adium_${version}.dmg",
   }
+
 }
