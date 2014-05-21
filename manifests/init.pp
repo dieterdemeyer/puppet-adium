@@ -4,7 +4,7 @@
 #
 #  include adium
 #
-class adium($version='1.5.9') {
+class adium($version='1.5.10') {
 
   package { "Adium-${version}":
     provider => 'appdmg',
